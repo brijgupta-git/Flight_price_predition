@@ -1,0 +1,73 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Price Prediction</title>
+
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/styles.css">
+
+
+</head>
+
+<body>
+
+    <!-- As a heading -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">FLIGHT PRICE PREDICTION</a>
+            </div>
+        </div>
+    </nav>
+
+    <br><br>
+
+    <div class="container">
+        <div style="text-align: left">
+            <div>
+                <p1>departure time={{departure}}</p1>
+            </div>
+            <br>
+
+            <div>
+                <p1>arrival time={{arrival}}</p1>
+            </div>
+            <br>
+
+            <div>
+                <p1>source={{source}}</p1>
+            </div>
+            <br>
+
+            <div>
+                <p1>destination={{destination}}</p1>
+            </div>
+            <br>
+
+            <div>
+                <p1>total_stops={{stops}}</p1>
+            </div>
+            <br>
+
+            <div>
+                <p1>{{prediction_text}}</p1>
+            </div>
+
+
+        </div>
+        <form action="\" method="get">
+            <input type="submit" value="reset" class="btn btn-secondary">
+        </form>
+    </div>
+
+</body>
+
+</html>
